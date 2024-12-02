@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.referrers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    padding-top: 22px;
+}
+
+.logos{
+    display: flex;
+}
+
+header{
+    width: 1440px;
+    height: 720px;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.imgtext{
+    display: flex;
+}
+
+h1{
+    font-size: 64px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 47px;
+    width: 447px;
+}
+
+nav>ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li>a{
+  color: black;
+  text-decoration: none;
+}
+
+.imgtext>p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    margin-right: 216px;
+}
+
+.abouts{
+    width: 372px;
+    margin-right: 304px;
+}
+
+.img1{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    transform:translateY(-505px);
+    left: 650px;
+    transform: rotate(25);
+}
+.commit{
+    display: flex;
+    align-items: center;
+    gap: 318.68px;
+    width: 1440px;
+    height: 740px;
+    padding-left: 49.6px;
+    background-color: rgb(250, 249, 240);
+}
+
+.commitment{
+    width: 388.25px;
+    font-size: 48px;
+}
+
+.textt{
+    font-size: 18px;
+    width: 646.39px;
+}
+
+.textimgg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 510px;
+    background-color: rgba(201, 155, 103, 1);
+    color: white;
+}
+
+.quality{
+    color: white;
+}
+
+.Although{
+    width: 639px;
+}
+
+.imgg{
+    transform: translateY(-114px);
+}
+
+footer{
+    width: 1440px;
+    height: 160px;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-left: 50px;
+    padding-right: 64px;
+}
+
+.social{
+    display: flex;
+    gap: 30px;
+}

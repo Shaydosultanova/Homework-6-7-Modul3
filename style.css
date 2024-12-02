@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.referrers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    padding-top: 22px;
+}
+
+.logos{
+    display: flex;
+}
+
+header{
+    width: 1440px;
+    height: 800px;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.imgtext{
+    display: flex;
+}
+
+
+h1{
+    font-size: 64px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 47px;
+    width: 447px;
+}
+
+.imgtext>p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    margin-right: 216px;
+}
+
+button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    width: 193px;
+    height: 51px;
+    background-color: rgba(10, 119, 95, 1);
+    border: 1px solid rgba(10, 119, 95, 1);
+    border-radius: 100px;
+    padding: 16px 24px;
+    margin-top: 47px;
+}
+
+.img1{
+    position: relative;
+    transform: translateX(50px);
+}
+
+.img2{
+    position: absolute;
+    transform:translateY(-815px);
+    left: 650px;
+    transform: rotate(25);
+}
+.collection{
+    margin-top: 108px;
+    margin-left: 543.51px;
+    font-size: 50px;
+    text-align: center;
+}
+
+main{
+    width: 100vw;
+}
+
+.textimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coffee:hover{
+    transform: scale(1.5);
+}
+
+.coffe{
+    font-size: 48px;
+    padding-top: 163px;
+}
+
+.tarkib{
+    font-size: 22px;
+    width: 454.26px;
+}
+
+footer{
+    width: 1440px;
+    height: 160px;
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-left: 50px;
+    padding-right: 64px;
+}
+
+.social{
+    display: flex;
+    gap: 30px;
+}
+
+nav>ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li>a{
+  color: black;
+  text-decoration: none;
+}
